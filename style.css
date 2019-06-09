@@ -1,0 +1,249 @@
+body {
+    background-color: rgb(250, 252, 224);
+    font-family: Calibri Light;
+    text-align: center;
+    color:rgb(166, 166, 166);
+}
+
+a{
+    color:rgb(36,36,36);  
+}
+
+
+
+#tabela{
+    overflow: scroll; 
+    height:50%; 
+    width:93.5%;
+    margin-left:3%;
+    margin-top:10%;
+    color:black;
+    position: absolute;
+}
+
+
+
+#corpologin{
+    margin-top: 20%;
+}
+#corpo{
+    margin-top: 10%;
+    position: absolute;
+     width: 100%;
+    height: 100%;
+
+}
+#logo_login img{
+    
+    width: 24%;
+    height: 26%;
+    margin-left: -13%;
+    margin-top: -12%;
+    position: absolute;
+}
+#logo_usuario img{
+    
+    width: 24%;
+    height: 26%;
+    margin-left: -50%;
+    margin-top: -3%;
+    position: absolute;
+}
+
+#logo img{
+    width: 38%;
+    height: 43%;
+    margin-left: -20%;
+    margin-top: 4%;
+    position: absolute;
+}
+
+#dominio{
+    color:rgb(166, 166, 166);
+    font-size: 190%;
+    margin-left: 42%;
+    margin-top: 4%;
+    position: absolute;
+}
+
+#fundo_menu_inicial{
+    background-color:rgb(233,228,197);
+    width: 90%;
+    height: 10%;
+    margin-left: 4%;
+    margin-top: 22%;
+    position: absolute;
+}
+#divisor1 img{
+    width:0.2%;
+    height:5%;
+    margin-left: -12%;
+    margin-top: 23.3%;
+    position: absolute;
+}
+#divisor2 img{
+    width:0.2%;
+    height:5%;
+    margin-left: -3%;
+    margin-top: 23.3%;
+    position: absolute;
+}
+#divisor3 img{
+    width:0.2%;
+    height:5%;
+    margin-left: 8%;
+    margin-top: 23.3%;
+    position: absolute;
+}
+
+#nomeusuario{
+    color:rgb(166, 166, 166);
+    font-size: 160%;
+    margin-left: 28%;
+    margin-top: 23.5%;
+    position: absolute;
+}
+#nomeitens{
+    color:rgb(166, 166, 166);
+    font-size: 160%;
+    margin-left: 40%;
+    margin-top: 23.5%;
+    position: absolute;
+}
+#nomereservas{
+    color:rgb(166, 166, 166);
+    font-size: 160%;
+    margin-left: 49%;
+    margin-top: 23.5%;
+    position: absolute;
+}
+#nomemyreservas{
+    color:rgb(166, 166, 166);
+    font-size: 160%;
+    margin-left: 59.5%;
+    margin-top: 23.5%;
+    position: absolute;
+}
+
+
+
+#corpologin input[type = text],
+#corpologin input[type = password],
+#corpo input[type = text],
+#corpo input[type = password],
+#corpo select[id = nivel]{
+
+    background-color:rgb(226,219,176);
+    border:0;
+    padding:0.7%;
+    width: 20%;
+    margin-left: -10%;
+    border-radius: 6px;
+    position: absolute;
+   
+}
+
+#corpologin input[type = submit],
+#corpo input[type = submit],
+#corpo input[type = reset]{
+    color: black;
+    background-color:rgb(255,192,0);
+    border:0;
+    padding:0.7%;
+    width: 11%;
+    margin-left: -6%;
+    border-radius: 6px;
+    position: absolute;
+}
+
+
+::-webkit-input-placeholder { 
+  color: white;
+}
+
+
+
+#hora{
+color:rgb(255, 192, 0);
+font-family: Calibri Light;
+font-size: 160%;
+margin-left: 86.5%;
+margin-top: 41%;
+position: absolute;
+}
+
+#data{
+font-family: Calibri Light;
+font-size: 130%;
+margin-left: 85%;
+margin-top: 43%;
+position: absolute;
+}
+
+#sair  a{
+color:rgb(166, 166, 166);
+font-family: Calibri Light;
+background-color:rgb(233,228,197);
+padding: 1%;
+text-decoration: none;
+font-size: 160%;
+margin-left: 40%;
+margin-top: 1%;
+position: absolute;
+}
+
+#voltar  a{
+color:rgb(166, 166, 166);
+font-family: Calibri Light;
+background-color:rgb(233,228,197);
+padding: 1%;
+text-decoration: none;
+font-size: 160%;
+margin-left: 30%;
+margin-top: 1%;
+position: absolute;
+}
+
+#usuario_rodape{
+color:rgb(166, 166, 166);
+font-size: 150%;
+margin-left: 4%;
+margin-top: 43%;
+position: absolute;
+}
+
+#usuario{
+color:rgb(255, 192, 0);
+font-size: 150%;
+margin-left: 11%;
+margin-top: 43%;
+position: absolute;
+}
+
+#mostar a{
+color:rgb(166, 166, 166);
+font-size: 110%;
+margin-left: 33%;
+margin-top: 35%;
+position: absolute;
+text-decoration: none;
+
+}
+
+#novousuario a{
+color:rgb(166, 166, 166);
+font-size: 110%;
+margin-left: 33%;
+margin-top: 37%;
+position: absolute;
+text-decoration: none;
+
+}
+
+#busca{
+margin-left: 2.5%;
+margin-top: 35%;
+position: absolute;
+}
+
+
